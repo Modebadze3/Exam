@@ -57,7 +57,6 @@
 	.s4 {
 		margin: 0;
 		margin-top: 124px;
-
 	}
 }
 @media (max-width: 555px) {
@@ -70,5 +69,8 @@
 	}
 	footer {
 		height: 700px;
+	}
+	.s3 {
+		justify-content: space-between;
 	}
 }
