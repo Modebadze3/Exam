@@ -1,6 +1,9 @@
 @media (max-width: 800px) {
-	.left {
+	.navigation {
 		display: none;
+	}
+	.bar {
+		display: block;
 	}
 }
 @media (max-width: 670px) {
@@ -21,17 +24,29 @@
 	.s2-image  img{
 		height: 1350px;
 	}
+	.s2-child p {
+		font-size: 24px;
+	}
+	.s2-child {
+		top: 80px;
+		left: 80px;
+	}
 	.child2, .child1-wraper{
 		flex-wrap: wrap;
 	}
 	.child2 img {
-		max-width: 250px;
+		max-width: 100%;
+		width: 100%;
 	}
 	.child1 {
 		max-width: 132px;
 		width: 100%;
 	}
-	.child1 h3 {
+	.child1-image {
+		margin-right: 0;
+		margin-top: 5px;
+	}
+	.child1 .h3 {
 		font-size: 22px;
 	}
 	.name {
@@ -58,14 +73,16 @@
 		margin: 0;
 		margin-top: 124px;
 	}
+	.bar {
+		display: block;
+		display: flex;
+		justify-content: flex-end;
+	}
 }
 @media (max-width: 555px) {
 	.wraper1 {
 		max-width: 180px;
 		width: 100%;
-	}
-	.ul {
-		flex-wrap: wrap;
 	}
 	footer {
 		height: 700px;

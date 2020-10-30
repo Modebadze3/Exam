@@ -6,80 +6,84 @@
 */
 
 /*header*/
-.image img {
-	width: 100%	
-}
-.image {
+.bg-image {
+	background-image: url(../img/image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 324px;
 	position: relative;
-	max-width: 100%;
-}
-.name{
-	color: white;
-	font-size: 16px;
-}
-.nav-a{
-	color: white;
-}
-.ul{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-}
-.nav-li{
-	padding-left: 50px;
-	font-size: 14px;
-}
-.nav{
-	position: absolute;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+	opacity: 0.9;
 	max-width: 100%;
 	width: 100%;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
-	top: 30px;
 }
-.left{
+.header {
+	max-width: 1088px;
+	width: 100%;
+	margin: 0 auto;
+}
+.first-block {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding-top: 30px;
+}
+.first-block h2 {
+	color: #fff;
+}
+.nav-ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+li {
+	margin-right: 50px;
+}
+li:last-child {
+	margin-right: 0px;
+}
+li a {
+	color: #fff;
+}
+li a:hover {
+	color: lightblue;
+}
+.h-a:hover {
+	color: lightblue;
+}
+.bar {
+	color: #fff;
+	font-size: 30px;
+	display: none;
+}
+.second-block {
 	position: absolute;
-	top: 145px;
-	left: 139px;
+	top: 146px;
 }
-.left2{
+.title {
+	color: #fff;
 	font-size: 42px;
-	color: #fff;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
 }
-.left3{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-}
-.a{
-	font-size: 16px;
+.h-a {
 	color: #fff;
 }
-.h2::after {
-	content: "";
-	display: block;
+.home {
 	display: inline-block;
-	width: 2px;
-	height: 20px;
+}
+.about {
+	display: inline-block;
+}
+.home::after {
+	content: "";
+	height: 19px;
+	width: 1px;
+	display: inline-block;
 	background-color: #fff;
-	margin: 0 20px;
+	margin: 0 10px;
 }
-.nav-a:hover {
-	color: red;
-}
-.a:hover {
-	color: red;
-}
+
 /*section1*/
 .child1 {
 	display: -webkit-box;
