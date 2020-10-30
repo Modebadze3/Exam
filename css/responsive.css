@@ -5,6 +5,9 @@
 	.bar {
 		display: block;
 	}
+	.first-block {
+		justify-content: space-around;
+	}
 }
 @media (max-width: 670px) {
 	.wraper{
@@ -48,9 +51,6 @@
 	}
 	.child1 .h3 {
 		font-size: 22px;
-	}
-	.name {
-		display: none;
 	}
 	.f {
 		flex-wrap: wrap;
