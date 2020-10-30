@@ -58,6 +58,9 @@ li a:hover {
 	font-size: 30px;
 	display: none;
 }
+.bar:hover {
+	color: lightblue;
+}
 .second-block {
 	position: absolute;
 	top: 146px;

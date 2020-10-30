@@ -65,6 +65,7 @@
 	}
 	.s4-wraper {
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.s3-child h3 {
 		font-size: 18px;
@@ -72,6 +73,8 @@
 	.s4 {
 		margin: 0;
 		margin-top: 124px;
+		justify-content: center;
+		align-items: center;
 	}
 	.bar {
 		display: block;
